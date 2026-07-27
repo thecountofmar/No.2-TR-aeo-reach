@@ -1,0 +1,15 @@
+{
+  "name": "@aeo-reach/core",
+  "version": "0.1.0",
+  "description": "Traffic Asset Architecture for the AI-agent era. Business Fact Graph, Traffic Asset IR, Channel Compiler, Preference Evaluation.",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "license": "Apache-2.0",
+  "author": "AEO-reach contributors",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thecountofmar/aeo-reach-core"
+  },
+  "keywords": ["aeo", "geo", "traffic-assets", "agent", "llms-txt", "channel-compiler"],
+  "files": ["src/", "README.md", "LICENSE"]
+}
