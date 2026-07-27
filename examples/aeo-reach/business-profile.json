@@ -1,0 +1,60 @@
+{
+  "name": "AEO-reach",
+  "businessType": "saas",
+  "tagline": "AI-agent-era traffic asset workbench",
+  "description": "AEO-reach turns business facts into AI-readable, agent-callable, platform-native and conversion-ready traffic assets.",
+  "website": "https://aeo-reach.vercel.app",
+  "contactEmail": "hello@aeo-reach.com",
+  "targetMarkets": [
+    "Global",
+    "China"
+  ],
+  "targetAudiences": [
+    "project founders",
+    "indie hackers",
+    "SEO/GEO teams",
+    "B2B export businesses",
+    "agent-ready website builders"
+  ],
+  "channels": [
+    "website",
+    "mcp",
+    "api",
+    "xiaohongshu",
+    "wechat",
+    "tiktok",
+    "x",
+    "reddit",
+    "youtube"
+  ],
+  "products": [
+    {
+      "name": "AEO-reach Core",
+      "category": "traffic asset architecture",
+      "description": "Open-source architecture for Business Fact Graph, Traffic Asset IR, Channel Compiler and Preference Evaluation.",
+      "features": [
+        "Business Fact Graph",
+        "Traffic Asset IR",
+        "Multi-channel Compiler",
+        "Preference Evaluation",
+        "Competitive Asset Gap"
+      ],
+      "useCases": [
+        "Generate Brand Agent Kit",
+        "Build agent-ready website assets",
+        "Compile platform-native channel assets",
+        "Evaluate agent preference readiness"
+      ],
+      "disclaimers": [
+        "AEO-reach improves readiness and workflow, but does not guarantee AI recommendation, ranking, traffic, or conversion."
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "claim": "AEO-reach official site exposes llms.txt, agent.json, product-facts.json, traffic-assets.json, MCP tools and OpenAPI files.",
+      "source": "AEO-reach deployed website",
+      "url": "https://aeo-reach.vercel.app"
+    }
+  ]
+}

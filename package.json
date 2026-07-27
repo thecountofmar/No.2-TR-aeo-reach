@@ -2,14 +2,36 @@
   "name": "@aeo-reach/core",
   "version": "0.1.0",
   "description": "Traffic Asset Architecture for the AI-agent era. Business Fact Graph, Traffic Asset IR, Channel Compiler, Preference Evaluation.",
-  "main": "src/index.ts",
-  "types": "src/index.ts",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "license": "Apache-2.0",
   "author": "AEO-reach contributors",
   "repository": {
     "type": "git",
-    "url": "https://github.com/thecountofmar/aeo-reach-core"
+    "url": "https://github.com/thecountofmar/No.2-TR-aeo-reach.git"
   },
-  "keywords": ["aeo", "geo", "traffic-assets", "agent", "llms-txt", "channel-compiler"],
-  "files": ["src/", "README.md", "LICENSE"]
+  "keywords": [
+    "aeo",
+    "geo",
+    "traffic-assets",
+    "agent",
+    "llms-txt",
+    "channel-compiler",
+    "business-fact-graph",
+    "agent-ready"
+  ],
+  "files": [
+    "dist/",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "typecheck": "tsc --noEmit -p tsconfig.json",
+    "test": "npm run typecheck && node tests/smoke.mjs",
+    "clean": "node -e \"require('fs').rmSync('dist',{recursive:true,force:true})\""
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  }
 }
